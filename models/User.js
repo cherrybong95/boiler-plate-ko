@@ -25,7 +25,7 @@ role: {
 },
 image: String,
 token: {
-    type:toString
+    type:String
 },
 tokenExp:{
     type: Number
@@ -35,4 +35,6 @@ tokenExp:{
 
 
 const User = mongoose.model('User',userSchema)
-module.exposts ={User}
+module.exports = {User}
+
+//
